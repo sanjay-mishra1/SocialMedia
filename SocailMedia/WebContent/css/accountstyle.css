@@ -1,0 +1,86 @@
+/***************Account**********************/
+     .profile {
+  max-height: 82px;
+  margin-bottom: 11px;
+  height: 60px;
+}
+
+  .profile .avatar {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+  .profile .profile-name {
+  width: calc(100% - 40px - 8px);
+}
+
+  .profile .profile-name h5 {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+  .profile .profile-name span {
+  color: #9197a3;
+  font-size: 18px;
+  margin-left: 13px;
+}
+.profile-name a {
+    color: #3b5998;
+    cursor: pointer;
+    margin-left: 21px;
+    text-decoration: none;
+}
+#account{
+   box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0);
+}
+#account img{
+   width: 60px;
+   height: 60px;
+}
+.circular-avatar img{
+   float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.profile .circularprofile-name a,h5 {
+  
+    color: #3b5998;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 14px;
+    margin-left: 13px;
+}
+
+
+
+/***********************************************/
+
+/****************Scrollbar********************/
+
+/*********************/
+#content-scroll::-webkit-scrollbar{
+     width: 10px;
+     background-color: #F5F5F5;
+}
+ #content-scroll::-webkit-scrollbar-thumb{
+     border-radius: 10px;
+     background-color: #FFF;
+     background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#04ffb4), to(#2196fd), color-stop(.6,#2196fd));
+}
+ #content-scroll1::-webkit-scrollbar{
+     width: 10px;
+     background-color: #F5F5F5;
+}
+ #content-scroll1::-webkit-scrollbar-thumb{
+     border-radius: 10px;
+     background-color: #FFF;
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#04ffb4), to(#2196fd), color-stop(.6,#2196fd));
+}
+/*************************************************/
